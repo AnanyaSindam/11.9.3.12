@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Discrete Mathematics}
+\author{Sindam Ananya \\
+        EE23BTECH11058}
+\maketitle
+
+\section*{Problem Statement}
+The sum of first three terms of a G.P is $39/10$ and their product is $1$. Find the common ratio and the terms.
+
+\section*{Solution}
+
+Given the sequence of an numbers in G.P\\
+Let the three terms which are in G.P be $a/r$, $a$, $ar$\\
+where $r$ is the common ratio of the sequence and $a$ is the second term of the G.P\\
+given the product of them is $1$ which is $a/r \cdot a \cdot ar = a^3 = 1$ so $a=1$\\
+given their sum is $39/10$ which is $a/r + a + ar = 39/10$\\
+\[
+\frac{1}{r} + 1 + r = \frac{39}{10}
+\]
+\[
+10r^2 + 10r + 10 = 39r
+\]
+\[
+10r^2 - 29r + 10 = 0
+\]
+\[
+10r^2 - 25r - 4r + 10 = 0
+\]
+\[
+5r(2r - 5) - 2(2r - 5) = 0
+\]
+\[
+(5r - 2)(2r - 5) = 0
+\]
+$r = 2/5$ or $5/2$\\
+The terms of the G.P are: 
+\begin{enumerate}
+      \item If $r = 2/5$ , then terms are $5/2$ , $1$ , $2/5$.
+      \item If $r = 5/2$ , then terms are $2/5$ , $1$ , $5/2$.
+\end{enumerate}
+\end{document}
